@@ -1,8 +1,12 @@
-export default function App() {
+import React from "react";
+import Auth from "./Auth";
+
+function App() {
   return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold text-blue-600">Tailwind is working!</h1>
-      <p className="mt-4 text-gray-600">Let’s build something cool.</p>
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <Auth />
     </div>
   );
 }
+
+export default App;
